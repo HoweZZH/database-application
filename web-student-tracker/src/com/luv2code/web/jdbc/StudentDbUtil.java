@@ -158,6 +158,7 @@ public class StudentDbUtil {
 			// clean up JDBC objects
 			close(myConn, myStmt, myRs);
 		}
+		
 	}
 
 	public void updateStudent(Student theStudent) throws Exception {
