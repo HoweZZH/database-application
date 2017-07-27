@@ -132,7 +132,7 @@ public class StudentControllerServlet extends HttpServlet {
 				request.getRequestDispatcher("/update-student-form.jsp");
 		dispatcher.forward(request, response);		
 	}
-
+	
 	private void addStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
 		// read student info from form data
