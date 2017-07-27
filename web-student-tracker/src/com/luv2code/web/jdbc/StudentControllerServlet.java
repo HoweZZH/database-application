@@ -93,7 +93,7 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// send them back to "list students" page
 		listStudents(request, response);
-	}
+	}	
 
 	private void updateStudent(HttpServletRequest request, HttpServletResponse response)
 		throws Exception {
